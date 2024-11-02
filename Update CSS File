@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Wet+Paint&display=swap');
+body {
+    margin: 0;
+    background-color: rgb(0, 13, 17);
+}
+
+/* Navbar styling */
+.navbar {
+    background-color: rgb(0, 13, 17);
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-name {
+    color: rgb(238, 246, 246);
+    font-weight: bold;
+    padding-left: 25px;
+    font-size: x-large;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    margin-left: auto; /* Pushes the navigation items to the right */
+}
+
+.navbar li {
+    margin-left: 20px; /* Adds spacing between menu items */
+    padding-right: 20px;
+}
+
+.navbar a {
+    color: rgb(250, 250, 254);
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+}
+
+.navbar a:hover {
+    background-color: rgb(12, 70, 140);
+}
+
+/* Headings and paragraph styling */
+.h1-1, .h1-2 {
+    font-family: "Rubik Wet Paint", serif;
+    font-weight: 400;
+    font-style: normal;
+    
+      
+    margin: 0;
+    padding: 0;
+}
+
+.h1-1 {
+    padding-top: 20px; /* Reduced from 500px for better alignment */
+    font-size: 50px;
+    text-align: left;
+    color: #f1f0f0;
+}
+
+.h1-2 {
+    font-size: 50px;
+    text-align: left;
+    color: #f1f0f0;
+}
+
+p {
+    font-weight: bold;
+    padding-top: 20px;
+    text-align: left;
+    color: #f1f0f0;
+    font-size: medium;
+}
+
+/* Container for headings */
+.containor1 {
+    padding-top: 90px;
+    text-align: left;
+    margin-top: 100px;
+    margin-left: 250px;
+}
+
+/* Profile image styling */
+.containor2 {
+    display: flex;
+    padding-top: 5px;
+}
+
+.profile-image {
+    width: 300px; /* Adjust size as needed */
+    height: 300px;
+    border-radius: 50%;
+    border: 3px solid rgb(23, 43, 48);
+    box-shadow: 0px 4px 10px rgba(24, 2, 2, 0.3); /* Adds shadow */
+    position: absolute;
+    bottom: 140px;
+    left: 1000px;
+}
+.containor3{
+    position: absolute;
+    width: 250px;
+    display: flex;
+    left: 250px;
+    gap: 15px;
+    
+}
+.containor3 a{
+    position: relative;
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid rgb(17, 110, 181);
+    border-radius: 50%;
+    font-size: 40px;
+    color: rgb(13, 163, 218);
+    text-decoration: none;
+    z-index: 1;
+    overflow: hidden;
+    transition: .5s;
+    
+}
+.containor3 a::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: rgb(0, 170, 255);
+    z-index: -1;
+    transition: .5s;
+}
+   
+
+.containor3 a:hover{
+    color: black;
+
+}
+
+
+.containor3 a:hover::before{
+    width: 100%;
+
+}
+.heading1{
+    text-align: center;
+    color: #fbf4f4;
+    margin-top: 50px;
+    font-size: larger;
+    font-weight: bold;
+}
+.heading2{
+    color: #f1f0f0;
+    text-align:left ;
+    padding-left: 50px;
+}
+.heading3{
+    padding-top: 40px;
+}
+.heading4{
+    padding-top: 40px;
+}
