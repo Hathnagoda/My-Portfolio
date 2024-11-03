@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" type="text/css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-name">
+            <a href="home.html">
+                <img src="Logo2.png" alt="logo" class="logo-image">
+            </a>
+        </div>
+        
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="headingBlog">
+        <h1>My Blog</h1> <!-- Fixed the closing tag -->
+    </div>
+
+    <div class="blog1">
+        <div class="card">
+            <img src="astronomy.jpeg" alt="astronomy" class="astronomy">
+            <div class="card-content">
+                <h3>Astronomy</h3>
+                <p>My love for astronomy has grown through both observation and learning, and being a member of FASE Sri Lanka has only deepened this passion. I enjoy observing celestial phenomena and exploring the mysteries of the universe. Through FASE, I also have the opportunity to join lecture sessions at schools, where we introduce students to the wonders of space and inspire curiosity in science. This experience has taught me the value of sharing knowledge and has fueled my commitment to lifelong learning.</p>
+                <a href="https://www.instagram.com/fase.srilanka/" class="btn">Read More</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="hicking2.jpg" alt="hicking2" class="hicking">
+            <div class="card-content">
+                <h3>Hicking</h3>
+                <p>In my leisure time, I love to go hiking and immerse myself in nature. Adventure activities like hiking allow me to challenge myself, explore new terrains, and experience the beauty of the outdoors firsthand. Each hike brings a sense of accomplishment and a refreshing break from routine, inspiring me to approach both personal and professional challenges with renewed energy and determination. My passion for adventure keeps me grounded and fuels my curiosity for discovering new paths, both in nature and in life.</p>
+                <a href="https://www.alltrails.com/sri-lanka" class="btn">Read More</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="movie2.jpeg" alt="Movies" class="Movies">
+            <div class="card-content">
+                <h3>Watching Movies</h3>
+                <p>I’m a big fan of movies, especially those in the sci-fi and adventure genres. Watching these films not only entertains me but also sparks my imagination and inspires new ideas. Sci-fi movies, with their futuristic concepts and technological possibilities, fuel my curiosity about innovation, while adventure films ignite my love for exploration and excitement. These movies provide a blend of inspiration and creative insight that I enjoy bringing into my own projects and interests.</p>
+                <a href="https://www.netflix.com/lk/" class="btn">Read More</a>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="contaionrFo">
+            <div class="footer-content">
+                <h3>Contact Us</h3>
+                <p>Email: gayanthahathnagoda79@gmail.com</p>
+                <p>Phone: +94 71 666 29 97</p>
+                <p>Address: 1A, Hathnagoda, Muruthagahamula</p>
+            </div>
+            <div class="footer-content">
+                <h3>Quick Links</h3>
+                <ul class="list">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>  
+            <div class="footer-content">
+                <h3>Follow Us</h3>
+                <ul class="social-icons">
+                    <li><a href="https://www.facebook.com/profile.php?id=100078481458225"><i class="fab fa-facebook"></i></a></li>
+                    <li><a href="https://www.instagram.com/gayantha_hathnagoda/"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/gayantha-hathnagoda-5696152b5/"><i class="fab fa-linkedin"></i></a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="bottom-bar">
+            <p>&copy; 2024 your company. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
