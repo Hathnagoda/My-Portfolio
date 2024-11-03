@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> my portfolio </title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" type="text/css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-name">
+            <a href="home.html">
+                <img src="Logo2.png" alt="logo" class="logo-image">
+            </a>
+        </div>
+        
+        <ul>
+            <li> <a href="home.html"> Home </a></li>
+            <li> <a href="about.html"> About </a></li>
+            <li> <a href="blog.html"> Blog </a></li>
+            <li> <a href="contact.html"> Contact </a></li>
+            
+        </ul>
+        
+    </nav>
+    <div class="containor1">
+        <h1 class="h1-1"> Hi, I'm </h1>
+        <h1 class="h1-2"> Gayantha Hathnagoda </h1>
+        <P>"I am an undergraduate student pursuing a degree in Computer Science<br> with a strong focus on front-end web development. As a passionate and<br> dedicated web developer, I enjoy creating engaging, user-friendlyinterfaces<br> and bringing designs to life with HTML, CSS, and JavaScript. Through my studies,<br> I am building a solid technical foundation while continuously advancing my skills to<br> deliver seamless digital experiences." </P>
+
+    
+    </div>
+    <div class="containor2">
+        <img src="myimage2.jpg" alt="profile picture" class="profile-image ">
+    </div>
+    <div class="containor3">
+        <a href="https://www.facebook.com/profile.php?id=100078481458225"target="_blank" title="facebook"><i class='bx bxl-facebook'></i></a>
+        <a href="https://www.linkedin.com/in/gayantha-hathnagoda-5696152b5/"target="_blank" title="linkedin"><i class='bx bxl-linkedin-square' ></i></a>
+        <a href="https://github.com/Hathnagoda "target="_blank" title="GitHub"><i class='bx bxl-github'></i></a>
+        <a href="https://www.instagram.com/gayantha_hathnagoda/"target="_blank" title="instagram"><i class='bx bxl-instagram' ></i></a>
+    </div> 
+    
+    <footer>
+        <div class="contaionrFo">
+            <div class="footer-content">
+                <h3> Contact Us</h3>
+                <p>Email:gayanthahathnagoda79@gmail.com</p>
+                <p>Phone:+94 71 666 29 97</p>
+                <p>Address:1A,Hathnagoda,Muruthagahamula</p>
+            </div>
+            <div class="footer-content">
+                <h3>Quick Links</h3>
+                <ul class="list">
+                    <li><a href="home.html"> Home </a></li>
+                    <li><a href="about.html"> About </a></li>
+                    <li><a href="blog.html"> Blog </a></li>
+                    <li><a href="contact.html"> Contact </a></li>
+
+                </ul>
+            </div>  
+            <div class="footer-content">
+                <h3> Follow Us </h3>
+                <ul class="social-icons">
+                    <li><a href="https://www.facebook.com/profile.php?id=100078481458225"><i class="fab fa-facebook"></i></a></li>
+                    <li><a href="https://www.instagram.com/gayantha_hathnagoda/"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/gayantha-hathnagoda-5696152b5/"><i class="fab fa-linkedin"></i></a></li>
+                </ul>
+                </div>
+            </div>
+                
+            <div class="bottom-bar">
+                <p>&copy; 2024 your company. All right reserved</p>
+            </div>
+
+
+
+
+
+    </footer>
+    
+    
+</body>
+</html>
