@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> my portfolio </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" type="text/css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-name">
+            <a href="home.html">
+                <img src="Logo2.png" alt="logo" class="logo-image">
+            </a>
+        </div>
+        
+        <ul>
+            <li> <a href="home.html"> Home </a></li>
+            <li> <a href="about.html"> About </a></li>
+            <li> <a href="blog.html"> Blog </a></li>
+            <li> <a href="contact.html"> Contact </a></li>
+        </ul>
+        
+    </nav>
+    <div class="heading1">
+    <h1> About Me </h1>
+
+    </div>
+    <div class="heading2">
+        <h2>Introduction</h2>
+        <p> I am currently an undergraduate student at the University of Westminster, in collaboration with IIT, pursuing a degree in Computer Science. Originally from the Kandy district in Sri Lanka, I completed my secondary education at Wariyapola Sri Sumangala College. My academic journey has shaped my passion for technology and front-end development, and I am eager to apply my skills in creating engaging digital experiences. Through my studies, I aim to build a strong foundation in web development and software engineering to contribute meaningfully to the tech industry. </p>
+        <h2 class="heading3">Education</h2>
+        <p> I am currently in the second year of my Computer Science degree, where I am building a strong foundation in programming and software development. My technical skills include proficiency in JavaScript for interactive web applications, Python for data analysis and backend scripting, and Java for object-oriented programming. I am passionate about applying these skills to real-world projects and deepening my expertise in web development and software engineering.</p>
+        <h2 class="heading4">Career Goals and Mission </h2>
+        <p>My goal is to become a skilled front-end developer, creating user-friendly and impactful digital experiences. I am dedicated to advancing my knowledge in web technologies and design principles, while continually expanding my skills in programming and software engineering. I aspire to work on innovative projects that make a difference, contributing to teams that prioritize both creativity and technical excellence.</p>
+        </div>
+        <footer>
+            <div class="contaionrFo">
+                <div class="footer-content">
+                    <h3> Contact Us</h3>
+                    <p>Email:gayanthahathnagoda79@gmail.com</p>
+                    <p>Phone:+94 71 666 29 97</p>
+                    <p>Address:1A,Hathnagoda,Muruthagahamula</p>
+                </div>
+                <div class="footer-content">
+                    <h3>Quick Links</h3>
+                    <ul class="list">
+                        <li><a href="home.html"> Home </a></li>
+                        <li><a href="about.html"> About </a></li>
+                        <li><a href="blog.html"> Blog </a></li>
+                        <li><a href="contact.html"> Contact </a></li>
+    
+                    </ul>
+                </div>  
+                <div class="footer-content">
+                    <h3> Follow Us </h3>
+                    <ul class="social-icons">
+                        <li><a href="https://www.facebook.com/profile.php?id=100078481458225"><i class="fab fa-facebook"></i></a></li>
+                        <li><a href="https://www.instagram.com/gayantha_hathnagoda/"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/gayantha-hathnagoda-5696152b5/"><i class="fab fa-linkedin"></i></a></li>
+                    </ul>
+                    </div>
+                </div>
+                    
+                <div class="bottom-bar">
+                    <p>&copy; 2024 your company. All right reserved</p>
+                </div>
+    
+    
+    
+    
+    
+        </footer>
+        
+
+    
+    
+</body>
+</html>
