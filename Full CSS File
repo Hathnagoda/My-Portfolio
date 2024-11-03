@@ -1,0 +1,547 @@
+/*home page css*/
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Wet+Paint&display=swap');
+body {
+    margin: 0;
+    background-color: rgb(0, 13, 17);
+}
+
+/* Navbar styling */
+.navbar {
+    background-color: rgb(0, 13, 17);
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-name {
+    padding-left: 20px;
+    display: flex;
+
+
+}
+.logo-image{
+    width: 60px;
+    height: auto;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    margin-left: auto; /* Pushes the navigation items to the right */
+}
+
+.navbar li {
+    margin-left: 20px; /* Adds spacing between menu items */
+    padding-right: 20px;
+}
+
+.navbar a {
+    color: rgb(250, 250, 254);
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+}
+
+.navbar a:hover {
+    background-color: rgb(12, 70, 140);
+}
+
+/* Headings and paragraph styling */
+.h1-1, .h1-2 {
+    font-family: "Rubik Wet Paint", serif;
+    font-weight: 400;
+    font-style: normal;  
+    margin: 0;
+    padding: 0;
+}
+
+.h1-1 {
+    padding-top: 10px; /* Reduced from 500px for better alignment */
+    font-size: 50px;
+    text-align: left;
+    color: #f1f0f0;
+}
+
+.h1-2 {
+    font-size: 50px;
+    text-align: left;
+    color: #f1f0f0;
+}
+
+p {
+    font-weight: bold;
+    padding-top: 20px;
+    text-align: left;
+    color: #f1f0f0;
+    font-size: medium;
+}
+
+/* Container for headings */
+.containor1 {
+    padding-top: 10px;
+    text-align: left;
+    margin-top: 100px;
+    margin-left: 250px;
+}
+
+/* Profile image styling */
+.containor2 {
+    display: flex;
+    padding-top: 50px;
+}
+
+.profile-image {
+    width: 300px; /* Adjust size as needed */
+    height: 300px;
+    border-radius: 50%;
+    border: 3px solid rgb(23, 43, 48);
+    box-shadow: 0px 4px 10px rgba(24, 2, 2, 0.3); /* Adds shadow */
+    position: absolute;
+    bottom: 180px;
+    left: 1000px;
+}
+.containor3{
+    position: absolute;
+    width: 250px;
+    display: flex;
+    left: 250px;
+    gap: 15px;
+    bottom: 130px;
+    
+}
+.containor3 a{
+    position: relative;
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid rgb(17, 12, 0);
+    border-radius: 50%;
+    font-size: 40px;
+    color: rgb(14, 189, 224);
+    text-decoration: none;
+    z-index: 1;
+    overflow: hidden;
+    transition: .5s;
+    
+}
+.containor3 a::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: rgb(14, 189, 224);
+    z-index: -1;
+    transition: .5s;
+}
+   
+
+.containor3 a:hover{
+    color: black;
+
+}
+
+
+.containor3 a:hover::before{
+    width: 100%;
+
+}
+/*about page css*/
+.heading1{
+    text-align: center;
+    color: rgb(14, 189, 224);
+    margin-top: 20px;
+    font-size: larger;
+    font-weight: bold;
+}
+.heading2{
+    color:rgb(14, 189, 224);
+    text-align:left ;
+    padding-left: 50px;
+}
+.heading3{
+    padding-top: 40px;
+}
+.heading4{
+    padding-top: 40px;
+}
+/* contact page css*/
+
+.contact{
+    color: #f1f0f0;
+    min-height: 100vh;
+    padding: 50px;
+    text-align: center;
+}
+.containorCO{
+    max-width: 800px;
+    margin: 0 auto;
+    
+
+
+}
+.containorCO h1{
+    font-size: 36px;
+    margin-bottom: 40px;
+    
+}
+.contact-wrapper{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 30px;
+
+}
+.contact-form{
+    text-align: left;
+}
+.contact-form{
+    font-size: 24px;
+    margin-bottom: 20px;
+    
+
+}
+.form-group{
+    margin-bottom: 20px;
+}
+input, textarea{
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+}
+input:focus,
+textarea:focus{
+    outline: none;
+    box-shadow: 0 0 8px rgb(14, 189, 224);;
+}
+button{
+    display: inline-block;
+    padding: 12px 24px;
+    background-color:rgb(14, 189, 224);;
+    color: #dfe4de;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+button:hover{
+    background-color: rgb(14, 189, 224);;
+
+}
+.contact-info{
+    text-align: left;
+}
+.contact-info h3{
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #fff;
+    padding-left: 10px;
+
+}
+.contact-info p{
+    margin-bottom: 10px;
+    color: #f4efef;
+}
+.contact-info i{
+    color: rgb(14, 189, 224);
+    margin-right: 10px;
+    padding-left: 10px;
+}
+@media screen and (max-width: 768px){
+    .containorCO{
+        padding: 20px;
+    }
+    .contact-wrapper{
+        grid-template-columns: 1fr;
+    }
+
+
+}
+/*blog css part */
+.blog1{
+    color: rgb(13, 6, 62);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 100px;    
+}
+.astronomy{
+    height: 300px;
+    width: 325px;
+}
+.hicking{
+    height: 300px;
+    width: 325px;
+}
+.Movies{
+    height: 300px;
+    width: 325px;
+}
+.card{
+    width: 325px;
+    background-color: rgb(14, 189, 224);
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 2);
+    margin: 20px;
+}
+.card img{
+    width: 100%;
+}
+.card-content{
+    padding: 16px;
+}
+.card-content{
+    font-size: 28px;
+    margin-bottom: 8px;
+}
+.card-content{
+    color: #11033c;
+    font-size: 15px;
+    line-height: 1.3;
+}
+.card-content .btn{
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #0d0561;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 16px;
+    color: #fff;
+
+
+}
+.headingBlog{
+    color: #f6f6fb;
+    text-align: center;
+}
+@media (max-width: 768px) {
+    .blog1 {
+        justify-content: flex-start; /* Align items to the start on smaller screens */
+    }
+
+    .card {
+        width: 90%; /* Make cards wider on small screens */
+        margin: 10px; /* Reduce margin for better fit */
+    }
+}
+
+/* General Styles for All Screen Sizes */
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Small Screens (Mobile Devices) */
+@media (max-width: 600px) {
+    /* Navbar adjustments */
+    .navbar {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .navbar ul {
+        flex-direction: column; /* Stack items vertically */
+        align-items: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .navbar li {
+        margin: 10px 0; /* Adds spacing between items */
+    }
+
+    .navbar-name {
+        margin-bottom: 15px;
+        padding-left: 0;
+    }
+
+    /* Home page adjustments */
+    .containor1 {
+        padding-top: 20px;
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+
+    .h1-1, .h1-2 {
+        font-size: 30px; /* Smaller font size for mobile */
+        text-align: center;
+    }
+
+    .profile-image {
+        width: 200px; /* Smaller image size */
+        height: 200px;
+        position: static; /* Removes absolute positioning for better flow */
+        margin: 20px auto;
+    }
+
+    .containor3 {
+        position: static;
+        justify-content: center;
+        gap: 10px; /* Reduced gap for mobile */
+        width: auto;
+    }
+}
+
+/* Tablet Version (min-width: 601px and max-width: 1024px) */
+@media (min-width: 601px) and (max-width: 1024px) {
+    /* Navbar adjustments */
+    .navbar {
+        padding: 15px;
+    }
+
+    .navbar ul {
+        margin-left: auto;
+        gap: 15px;
+    }
+
+    /* Home page adjustments */
+    .h1-1, .h1-2 {
+        font-size: 40px;
+        text-align: center; /* Center text for better alignment with image */
+    }
+
+    .containor1 {
+        padding-top: 30px;
+        margin-top: 50px;
+        margin-left: 0;
+        text-align: center; /* Center text on tablet layout */
+    }
+
+    .profile-image {
+        width: 250px;
+        height: 250px;
+        position: relative; /* Removes absolute positioning */
+        margin: 20px auto; /* Centers the image below the text */
+    }
+
+    .containor3 {
+        position: static;
+        gap: 20px;
+        justify-content: center;
+    }
+}
+
+/* Large Screens (Laptops and Desktops) */
+@media (min-width: 1025px) {
+    /* Navbar adjustments */
+    .navbar {
+        padding: 20px;
+    }
+
+    .navbar ul {
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    /* Home page adjustments */
+    .h1-1, .h1-2 {
+        font-size: 50px;
+        text-align: left;
+    }
+
+    .containor1 {
+        padding-top: 10px;
+        margin-top: 100px;
+        margin-left: 250px;
+    }
+
+    .profile-image {
+        width: 300px;
+        height: 300px;
+        position: absolute;
+        bottom: 180px;
+        left: 1000px;
+    }
+
+    .containor3 {
+        position: absolute;
+        left: 250px;
+    }
+}
+/*footer*/
+/* Footer Styling */
+/* Footer Styles */
+footer {
+    background-color:  rgb(4, 24, 48);/* Dark background for the footer */
+    color: #fff; /* White text color */
+    padding: 20px; /* Padding around the footer */
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Stack sections vertically */
+    align-items: center; /* Center the content */
+    justify-content: center; /* Center the content */
+}
+
+.contaionrFo {
+    display: flex; /* Use flexbox to arrange footer content */
+    justify-content: space-between; /* Space between the sections */
+    width: 100%; /* Full width */
+    max-width: 1200px; /* Maximum width for large screens */
+    margin: 0 auto; /* Center on larger screens */
+}
+
+.footer-content {
+    flex: 1; /* Allow each section to grow equally */
+    margin: 0 15px; /* Margin between sections */
+}
+
+.footer-content h3 {
+    border-bottom: 2px solid #fff; /* Underline heading */
+    padding-bottom: 10px; /* Space below heading */
+}
+
+.footer-content p{
+    margin: 10px 0;
+}
+.footer-content ul {
+    margin: 10px 0; /* Margin for paragraphs and lists */
+}
+
+.footer-content ul {
+    list-style: none; /* Remove bullet points from list */
+    padding: 0; /* Remove padding */
+}
+
+.footer-content ul li {
+    margin: 5px 0; /* Space between list items */
+}
+
+.footer-content a {
+    color: #fff; /* White link color */
+    text-decoration: none; /* Remove underline from links */
+}
+
+.footer-content a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+.social-icons {
+    display: flex; /* Use flexbox for social icons */
+    list-style: none; /* Remove bullet points */
+    padding: 0px; /* Remove padding */
+}
+
+.social-icons li {
+    margin: 0 10px; /* Space between social icons */
+    padding-left: 10px;
+}
+
+.bottom-bar {
+    text-align: center; /* Center text in the bottom bar */
+    margin-top: 20px; /* Space above the bottom bar */
+    font-size: 14px; /* Smaller font for copyright text */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .contaionrFo {
+        flex-direction: column; /* Stack sections vertically on small screens */
+        align-items: center; /* Center content */
+    }
+}
